@@ -4,6 +4,7 @@ mod tests {
 
     #[test]
     fn test_statement() {
-        assert_eq!(u32_bit("1100") & (u32_bit("1100") - 1), u32_bit("1000"));
+        let v = u32_bit("11001011");
+        assert_eq!(v | (v + 1), u32_bit("11001111"));
     }
 }

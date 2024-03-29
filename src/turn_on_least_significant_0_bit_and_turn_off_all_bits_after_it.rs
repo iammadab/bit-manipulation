@@ -4,9 +4,6 @@ mod tests {
 
     #[test]
     fn test_statement() {
-        assert_eq!(
-            u32_bit("1101100111") + 1,
-            u32_bit("1101101000")
-        );
+        assert_eq!(u32_bit("1101100111") + 1, u32_bit("1101101000"));
     }
 }
