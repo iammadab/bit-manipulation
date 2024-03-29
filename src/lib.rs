@@ -1,3 +1,4 @@
+mod turn_off_all_bits;
 mod turn_off_least_significant_1_bit;
 mod turn_off_least_significant_1_bit_and_turn_on_all_bits_after_it;
 mod turn_off_trailing_1s;
