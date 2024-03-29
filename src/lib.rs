@@ -3,6 +3,7 @@ mod turn_off_least_significant_1_bit_and_turn_on_all_bits_after_it;
 mod turn_off_trailing_1s;
 mod turn_on_least_significant_0_bit;
 mod turn_on_least_significant_0_bit_and_turn_off_all_bits_after_it;
+mod turn_on_least_significant_0_bit_turn_off_all_other_bits;
 mod turn_on_trailing_0s;
 
 /// Return the binary string representation of a u32 number
